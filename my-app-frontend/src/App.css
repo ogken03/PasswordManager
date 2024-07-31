@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+login-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
