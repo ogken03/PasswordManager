@@ -1,8 +1,13 @@
-import Header from './Header.jsx'
-
+import React from 'react';
+import LoginPage from './pages/login/login.jsx'
+import './App.css'
 function App() {
   return(
-    <Header></Header>
+    
+        <div className="login-container">
+          <LoginPage />
+        </div>
+    
   );
 }
 
